@@ -10,7 +10,7 @@ public class ReadConfig {
 
 	public ReadConfig() {
 
-     File src = new File("C:\\Projects\\Selenium\\inetBankingV1\\src\\main\\java\\resources\\config.properties");
+     File src = new File("C:\\Projects\\Selenium\\inetBankingV1\\inetBankingV1\\config.properties");
      
      try {
     	 FileInputStream fis = new FileInputStream(src);

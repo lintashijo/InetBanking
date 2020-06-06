@@ -16,14 +16,14 @@ public class TC_LoginTest_001 extends BaseClass {
 	public static Logger log = LogManager.getLogger(BaseClass.class.getName());
 	
 	ReadConfig readconfig = new ReadConfig();
-	public String baseURL= readconfig.getApplicationURL();
+	
 	public String username = readconfig.getUsename();
 	public String password = readconfig.getPassword();
 
 	@Test
 	public void loginTest() {
 		
-		driver.get(baseURL);
+		
 		log.info("Driver is initiated");
 		
 		
