@@ -17,8 +17,7 @@ public class TC_LoginTest_001 extends BaseClass {
 	
 	ReadConfig readconfig = new ReadConfig();
 	
-	public String username = readconfig.getUsename();
-	public String password = readconfig.getPassword();
+	
 
 	@Test
 	public void loginTest() {

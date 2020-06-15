@@ -1,1 +1,7 @@
 00:07:09.532 [main] INFO  com.inetBanking.testCases.BaseClass - alert accepted
+12:13:41.914 [main] INFO  com.inetBanking.testCases.BaseClass - chrome browser
+12:16:00.992 [main] INFO  com.inetBanking.testCases.BaseClass - chrome browser
+12:17:26.073 [main] INFO  com.inetBanking.testCases.BaseClass - chrome browser
+17:38:46.741 [main] INFO  com.inetBanking.testCases.BaseClass - chrome browser
+17:38:49.137 [main] INFO  com.inetBanking.testCases.BaseClass - Driver is initiated
+17:38:53.925 [main] INFO  com.inetBanking.testCases.BaseClass - chrome browser

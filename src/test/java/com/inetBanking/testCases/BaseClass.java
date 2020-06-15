@@ -17,6 +17,8 @@ public class BaseClass {
 	public static Logger log = LogManager.getLogger(BaseClass.class.getName());
 	ReadConfig readconfig = new ReadConfig();
 	public String baseURL= readconfig.getApplicationURL();
+	public String username = readconfig.getUsename();
+	public String password = readconfig.getPassword();
 	
 	public static WebDriver driver;
 	
