@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [InetBankingV1]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="BankingApp Test(failed)">
-    <parameter name="browser" value="ie"/>
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.inetBanking.testCases.TC_LoginTest_001">
         <methods>
@@ -10,6 +10,12 @@
           <include name="loginTest"/>
         </methods>
       </class> <!-- com.inetBanking.testCases.TC_LoginTest_001 -->
+      <class name="com.inetBanking.testCases.TC_AddCustomerTest_002">
+        <methods>
+          <include name="setupClass"/>
+          <include name="addNewCustomer"/>
+        </methods>
+      </class> <!-- com.inetBanking.testCases.TC_AddCustomerTest_002 -->
     </classes>
   </test> <!-- BankingApp Test(failed) -->
 </suite> <!-- Failed suite [InetBankingV1] -->
